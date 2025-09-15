@@ -192,4 +192,12 @@ Try to access b.protVar or b.privVar → not allowed (error).
 End
 
 # Conclusion:
+By studying and implementing inheritance in C++, we understand how code reusability, extensibility, and organization are achieved. Inheritance allows a derived class to access and extend the properties and behaviors of a base class.
 
+Single, Multilevel, Multiple, Hierarchical, and Hybrid inheritance demonstrate different real-world relationships.
+
+Access specifiers (public, protected, private) control visibility of members across classes.
+
+Inheritance reduces redundancy, improves maintainability, and supports object-oriented design principles like polymorphism and encapsulation.
+
+Thus, inheritance is a powerful feature of OOP that helps build structured and reusable code.
