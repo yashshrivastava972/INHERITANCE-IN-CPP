@@ -13,7 +13,7 @@ Inheritance is a feature or a process in which, new classes are created from the
 
 <img width="790" height="240" alt="image" src="https://github.com/user-attachments/assets/6e7c1441-2e47-4fc6-938a-7d476b5006eb" />
 
-#####	MODES OF INHERITANCE:
+##	MODES OF INHERITANCE:
 
 •	Public Mode: If we derive a subclass from a public base class. Then the public member of the base class will become public in the derived class and protected members of the base class will become protected in the derived class.
 
@@ -23,7 +23,7 @@ Inheritance is a feature or a process in which, new classes are created from the
 
 <img width="926" height="366" alt="image" src="https://github.com/user-attachments/assets/146c5c2c-0bd2-4256-b53d-cbe03c3ce09a" />
 
-#####	TYPES OF INHERITANCE: 
+##	TYPES OF INHERITANCE: 
 
 •	Single Inheritance: In single inheritance, a class is allowed to inherit from only one class. i.e. one subclass is inherited by one base class only.
 
