@@ -37,4 +37,159 @@ Inheritance is a feature or a process in which, new classes are created from the
 
 # Algorithms:
 
-## 1.
+## Algorithm for Puppy Inheritance Program
+
+Start
+
+Define a base class Animal
+
+Data member: type = "Dog"
+
+Member function: sound() → prints "Barks!"
+
+Define a derived class Puppy inheriting Animal using public inheritance
+
+Data member: name = "Tommy"
+
+In the main function:
+
+Create an object myPuppy of class Puppy.
+
+Call myPuppy.sound() → prints "Barks!".
+
+Access myPuppy.type (from Animal) and myPuppy.name (from Puppy).
+
+Print them together → "Dog Tommy".
+
+End
+
+## Algorithm: Multilevel Inheritance (Animal → Mammal → Dog)
+
+Start
+
+Define class Animal
+
+Function eat() → prints "This animal eats food.".
+
+Define class Mammal inheriting Animal (publicly)
+
+Function breathe() → prints "This mammal breathes air.".
+
+Define class Dog inheriting Mammal (publicly)
+
+Function bark() → prints "The dog barks: Woof Woof!".
+
+In the main function:
+
+Create object d of class Dog.
+
+Call d.eat() → executes Animal class function.
+
+Call d.breathe() → executes Mammal class function.
+
+Call d.bark() → executes Dog class function.
+
+End
+
+## Algorithm: Multiple Inheritance (Person + Student → Engineer)
+
+Start
+
+Define class Person
+
+Function displayPerson() → prints "I am a person.".
+
+Define class Student
+
+Function displayStudent() → prints "I am a student.".
+
+Define class Engineer inheriting from both Person and Student (multiple inheritance)
+
+Function displayEngineer() → prints "I am an engineering student.".
+
+In the main function:
+
+Create object E of class Engineer.
+
+Call E.displayPerson() → executes Person class function.
+
+Call E.displayStudent() → executes Student class function.
+
+Call E.displayEngineer() → executes Engineer class function.
+
+End
+
+## Algorithm: Hierarchical Inheritance (Animal → Dog, Cat, Cow)
+
+Start
+
+Define base class Animal
+
+Function eat() → prints "This animal eats food.".
+
+Define derived class Dog (inherits Animal)
+
+Function bark() → prints "The dog barks: Woof Woof!".
+
+Define derived class Cat (inherits Animal)
+
+Function meow() → prints "The cat meows: Meow Meow!".
+
+Define derived class Cow (inherits Animal)
+
+Function moo() → prints "The cow moos: Moo Moo!".
+
+In the main function:
+
+Create object d of Dog.
+
+Call d.eat() and d.bark().
+
+Create object c of Cat.
+
+Call c.eat() and c.meow().
+
+Create object cw of Cow.
+
+Call cw.eat() and cw.moo().
+
+End
+
+## Hybrid Inheritance Algorithm
+
+Start
+
+Define class Base
+
+pubVar = 1 (public) → accessible everywhere.
+
+protVar = 2 (protected) → accessible only inside Base and derived classes.
+
+privVar = 3 (private) → accessible only inside Base.
+
+Member function show() prints all three.
+
+Define class Derived inheriting Base.
+
+Member function showDerived() prints pubVar and protVar.
+
+Cannot access privVar.
+
+In main():
+
+Create object b of Base.
+
+Call b.show() → prints all three values.
+
+Create object d of Derived.
+
+Call d.showDerived() → prints pubVar and protVar.
+
+Directly access b.pubVar → allowed.
+
+Try to access b.protVar or b.privVar → not allowed (error).
+
+End
+
+# Conclusion:
+
