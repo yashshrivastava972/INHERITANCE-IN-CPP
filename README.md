@@ -25,10 +25,16 @@ Inheritance is a feature or a process in which, new classes are created from the
 
 #####	TYPES OF INHERITANCE: 
 
-•	Single inheritance: In single inheritance, a class is allowed to inherit from only one class. i.e. one subclass is inherited by one base class only.
+•	Single Inheritance: In single inheritance, a class is allowed to inherit from only one class. i.e. one subclass is inherited by one base class only.
 
-•	Multiple inheritance: In Multiple Inheritance a class can inherit from more than one class. (i.e.) one subclass is inherited from more than one base class.
+•	Multiple Inheritance: In Multiple Inheritance a class can inherit from more than one class. (i.e.) one subclass is inherited from more than one base class.
 
-•	Multilevel inheritance: In this type of inheritance, a derived class is created from another derived class.
+•	Multilevel Inheritance: In this type of inheritance, a derived class is created from another derived class.
 
-•	Hierarchical inheritance: In this type of inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived class is created from a single base class.
+•	Hierarchical Inheritance: In this type of inheritance, more than one subclass is inherited from a single base class. i.e. more than one derived class is created from a single base class.
+
+• Hybrid Inheritance: It is when two or more types of inheritance are combined (like multiple + hierarchical + multilevel).
+
+# Algorithms:
+
+## 1.
